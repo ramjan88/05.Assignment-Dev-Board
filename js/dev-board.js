@@ -5,4 +5,7 @@ document.getElementById("theme-btn").addEventListener("click", function () {
 });
 
 //
-//
+// click and visite the blog site
+document.getElementById("discoverd-box").addEventListener("click", function () {
+  window.location.href = "blog.html";
+});

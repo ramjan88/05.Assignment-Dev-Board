@@ -46,7 +46,7 @@
             class="flex justify-center items-center gap-4 bg-[#F4F7FF] rounded-2xl p-2"
           >
             <img class="w-6" src="images/checkbox.png" alt="" />
-            <h2 class="text-2xl font-bold">23</h2>
+            <h2 id="main-number" class="text-2xl font-bold">23</h2>
           </div>
           <div id="theme-btn">
             <img class="cursor-pointer" src="images/theme-btn.png" alt="" />
@@ -72,11 +72,12 @@
               </div>
               <div>
                 <p>Task Assigned</p>
-                <h2 class="text-xl font-bold">06</h2>
+                <h2 id="task-number" class="text-xl font-bold">06</h2>
               </div>
             </div>
             <!-- part 2 -->
-            <div id="discoverd-box"
+            <div
+              id="discoverd-box"
               class="flex items-center gap-4 p-4 rounded-xl cursor-pointer bg-linear-to-r from-[#3752FD] to-[#9BA8F8]"
             >
               <img class="w-16" src="images/board.png" alt="" />
@@ -87,10 +88,7 @@
               class="flex justify-center items-center gap-4 px-4 py-8 rounded-xl bg-[#F4F7FF]"
             >
               <img src="images/calender.png" alt="" />
-              <p>
-                wed,
-                <span class="font-semibold">jul 28 2025</span>
-              </p>
+              <p id="curernt-date" class="font-bold"></p>
             </div>
           </div>
 

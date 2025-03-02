@@ -13,7 +13,7 @@ document.getElementById("discoverd-box").addEventListener("click", function () {
 document
   .getElementById("btn-mobile")
   .addEventListener("click", function (event) {
-    alert("Board Update successfully");
+    alert("Board Updated successfully");
 
     let taskNumber = getInnerTextById("task-number");
     let mainNumber = getInnerTextById("main-number");
@@ -49,7 +49,7 @@ document
 
 // card- 2
 document.getElementById("btn-dark").addEventListener("click", function (event) {
-  alert("Board Update successfully");
+  alert("Board Updated successfully");
 
   let taskNumber = getInnerTextById("task-number");
   let mainNumber = getInnerTextById("main-number");
@@ -87,7 +87,7 @@ document.getElementById("btn-dark").addEventListener("click", function (event) {
 document
   .getElementById("btn-optimize")
   .addEventListener("click", function (event) {
-    alert("Board Update successfully");
+    alert("Board Updated successfully");
 
     let taskNumber = getInnerTextById("task-number");
     let mainNumber = getInnerTextById("main-number");
@@ -125,7 +125,7 @@ document
 document
   .getElementById("btn-emoji")
   .addEventListener("click", function (event) {
-    alert("Board Update successfully");
+    alert("Board Updated successfully");
 
     let taskNumber = getInnerTextById("task-number");
     let mainNumber = getInnerTextById("main-number");
@@ -161,7 +161,7 @@ document
 
 // card- 5
 document.getElementById("btn-api").addEventListener("click", function (event) {
-  alert("Board Update successfully");
+  alert("Board Updated successfully");
 
   let taskNumber = getInnerTextById("task-number");
   let mainNumber = getInnerTextById("main-number");
@@ -197,7 +197,7 @@ document.getElementById("btn-api").addEventListener("click", function (event) {
 
 // card- 6
 document.getElementById("btn-job").addEventListener("click", function (event) {
-  alert("Board Update successfully");
+  alert("Board Updated successfully");
 
   let taskNumber = getInnerTextById("task-number");
   let mainNumber = getInnerTextById("main-number");

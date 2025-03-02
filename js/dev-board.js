@@ -33,7 +33,7 @@ document
     let curerntDate = new Date().toLocaleTimeString();
 
     let div = document.createElement("div");
-    div.classList.add("bg-[#f7f4ff]", "mt-5", "rounded-xl");
+    div.classList.add("bg-[#F4F7FF]", "mt-5", "rounded-xl");
     let p = document.createElement("p");
     p.classList.add("text-sm", "px-4", "pb-4");
     p.innerText = `
@@ -41,6 +41,10 @@ document
     `;
     div.appendChild(p);
     historyContainer.appendChild(div);
+
+    if (diff === 0) {
+      alert("congrates!!! You have completed all the current task");
+    }
 
     // disabled button
     event.target.setAttribute("disabled", true);
@@ -64,7 +68,7 @@ document.getElementById("btn-dark").addEventListener("click", function (event) {
   let curerntDate = new Date().toLocaleTimeString();
 
   let div = document.createElement("div");
-  div.classList.add("bg-[#f7f4ff]", "mt-5", "rounded-xl");
+  div.classList.add("bg-[#F4F7FF]", "mt-5", "rounded-xl");
   let p = document.createElement("p");
   p.classList.add("text-sm", "px-4", "pb-4");
   p.innerText = `
@@ -72,6 +76,10 @@ document.getElementById("btn-dark").addEventListener("click", function (event) {
     `;
   div.appendChild(p);
   historyContainer.appendChild(div);
+
+  if (diff === 0) {
+    alert("congrates!!! You have completed all the current task");
+  }
 
   // disabled button
   event.target.setAttribute("disabled", true);
@@ -97,7 +105,7 @@ document
     let curerntDate = new Date().toLocaleTimeString();
 
     let div = document.createElement("div");
-    div.classList.add("bg-[#f7f4ff]", "mt-5", "rounded-xl");
+    div.classList.add("bg-[#F4F7FF]", "mt-5", "rounded-xl");
     let p = document.createElement("p");
     p.classList.add("text-sm", "px-4", "pb-4");
     p.innerText = `
@@ -105,6 +113,10 @@ document
     `;
     div.appendChild(p);
     historyContainer.appendChild(div);
+
+    if (diff === 0) {
+      alert("congrates!!! You have completed all the current task");
+    }
 
     // disabled button
     event.target.setAttribute("disabled", true);
@@ -130,7 +142,7 @@ document
     let curerntDate = new Date().toLocaleTimeString();
 
     let div = document.createElement("div");
-    div.classList.add("bg-[#f7f4ff]", "mt-5", "rounded-xl");
+    div.classList.add("bg-[#F4F7FF]", "mt-5", "rounded-xl");
     let p = document.createElement("p");
     p.classList.add("text-sm", "px-4", "pb-4");
     p.innerText = `
@@ -138,6 +150,10 @@ document
     `;
     div.appendChild(p);
     historyContainer.appendChild(div);
+
+    if (diff === 0) {
+      alert("congrates!!! You have completed all the current task");
+    }
 
     // disabled button
     event.target.setAttribute("disabled", true);
@@ -161,7 +177,7 @@ document.getElementById("btn-api").addEventListener("click", function (event) {
   let curerntDate = new Date().toLocaleTimeString();
 
   let div = document.createElement("div");
-  div.classList.add("bg-[#f7f4ff]", "mt-5", "rounded-xl");
+  div.classList.add("bg-[#F4F7FF]", "mt-5", "rounded-xl");
   let p = document.createElement("p");
   p.classList.add("text-sm", "px-4", "pb-4");
   p.innerText = `
@@ -169,6 +185,10 @@ document.getElementById("btn-api").addEventListener("click", function (event) {
     `;
   div.appendChild(p);
   historyContainer.appendChild(div);
+
+  if (diff === 0) {
+    alert("congrates!!! You have completed all the current task");
+  }
 
   // disabled button
   event.target.setAttribute("disabled", true);
@@ -192,7 +212,7 @@ document.getElementById("btn-job").addEventListener("click", function (event) {
   let curerntDate = new Date().toLocaleTimeString();
 
   let div = document.createElement("div");
-  div.classList.add("bg-[#f7f4ff]", "mt-5", "rounded-xl");
+  div.classList.add("bg-[#F4F7FF]", "mt-5", "rounded-xl");
   let p = document.createElement("p");
   p.classList.add("text-sm", "px-4", "pb-4");
   p.innerText = `
@@ -200,6 +220,10 @@ document.getElementById("btn-job").addEventListener("click", function (event) {
     `;
   div.appendChild(p);
   historyContainer.appendChild(div);
+
+  if (diff === 0) {
+    alert("congrates!!! You have completed all the current task");
+  }
 
   // disabled button
   event.target.setAttribute("disabled", true);

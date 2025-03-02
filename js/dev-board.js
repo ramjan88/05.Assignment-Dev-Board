@@ -38,6 +38,7 @@ document
     div.appendChild(p);
     historyContainer.appendChild(div);
 
+    //chack tast number 0
     if (diff === 0) {
       alert("congrates!!! You have completed all the current task");
     }
@@ -73,6 +74,7 @@ document.getElementById("btn-dark").addEventListener("click", function (event) {
   div.appendChild(p);
   historyContainer.appendChild(div);
 
+  //chack tast number 0
   if (diff === 0) {
     alert("congrates!!! You have completed all the current task");
   }
@@ -110,6 +112,7 @@ document
     div.appendChild(p);
     historyContainer.appendChild(div);
 
+    //chack tast number 0
     if (diff === 0) {
       alert("congrates!!! You have completed all the current task");
     }
@@ -147,6 +150,7 @@ document
     div.appendChild(p);
     historyContainer.appendChild(div);
 
+    //chack tast number 0
     if (diff === 0) {
       alert("congrates!!! You have completed all the current task");
     }
@@ -182,6 +186,7 @@ document.getElementById("btn-api").addEventListener("click", function (event) {
   div.appendChild(p);
   historyContainer.appendChild(div);
 
+  //chack tast number 0
   if (diff === 0) {
     alert("congrates!!! You have completed all the current task");
   }
@@ -217,6 +222,7 @@ document.getElementById("btn-job").addEventListener("click", function (event) {
   div.appendChild(p);
   historyContainer.appendChild(div);
 
+  //chack tast number 0
   if (diff === 0) {
     alert("congrates!!! You have completed all the current task");
   }
@@ -225,6 +231,7 @@ document.getElementById("btn-job").addEventListener("click", function (event) {
   event.target.setAttribute("disabled", true);
 });
 
+//
 // clear the history content
 document
   .getElementById("btn-clear-history")

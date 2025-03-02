@@ -88,46 +88,65 @@
         </div>
         <!-- question 2 -->
         <div class="bg-white py-5 px-10 rounded-xl space-y-2">
-          <h1 class="text-2xl font-semibold pb-3">
-            Question-1: What are the different ways to select an element in the
-            DOM?
+          <h1 class="text-2xl font-semibold pb-3 border-b-1 border-dashed">
+            Question-2: What is the difference between innerHTML, innerText, and
+            textContent?
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-            vel?
+          <p class="leading-8">
+            <span class="font-semibold">1.InnerHTML -</span> Retrieves or sets
+            the HTML content inside an element, including any HTML tags. <br />
+            <span class="font-semibold">2.InnerText -</span> Retrieves or sets
+            only the visible text inside an element, ignoring hidden text and
+            HTML tags. <br />
+            <span class="font-semibold">3.TextContent -</span> Retrieves or sets
+            all text inside an element, including hidden text, and treats HTML
+            tags as plain text. <br />
           </p>
         </div>
         <!-- question 3 -->
-        <div class="bg-white p-4 rounded-xl space-y-2">
-          <h1 class="text-2xl font-semibold pb-3">
-            Question-1: What are the different ways to select an element in the
-            DOM?
+        <div class="bg-white py-5 px-10 rounded-xl space-y-2">
+          <h1 class="text-2xl font-semibold pb-3 border-b-1 border-dashed">
+            Question-3: What is event delegation in the DOM?
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-            vel?
+          <p class="leading-8">
+            Event delegation is a technique in the DOM where a parent element
+            handles events for its child elements using event bubbling. Instead
+            of attaching event listeners to each child separately, a single
+            listener on the parent detects events from its children using
+            event.target. This improves performance, simplifies code, and allows
+            handling dynamically added elements efficiently.
           </p>
         </div>
         <!-- question 4 -->
-        <div class="bg-white p-4 rounded-xl space-y-2">
-          <h1 class="text-2xl font-semibold pb-3">
-            Question-1: What are the different ways to select an element in the
-            DOM?
+        <div class="bg-white py-5 px-10 rounded-xl space-y-2">
+          <h1 class="text-2xl font-semibold pb-3 border-b-1 border-dashed">
+            Question-4: What is event bubbling in the DOM?
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-            vel?
+          <p class="leading-8">
+            Event bubbling is a DOM mechanism where an event starts from the
+            target element and propagates upward through its parent elements
+            until it reaches the root (document). For example, if a user clicks
+            a button inside a div, the event first triggers on the button and
+            then bubbles up to the div, then to higher ancestors. This allows
+            parent elements to handle events from their children, enabling
+            techniques like event delegation.
           </p>
         </div>
         <!-- question 5 -->
-        <div class="bg-white p-4 rounded-xl space-y-2">
-          <h1 class="text-2xl font-semibold pb-3">
-            Question-1: What are the different ways to select an element in the
-            DOM?
+        <div class="bg-white py-5 px-10 rounded-xl space-y-2">
+          <h1 class="text-2xl font-semibold pb-3 border-b-1 border-dashed">
+            Question-5: How do you create, add, and remove elements using
+            JavaScript?
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-            vel?
+          <p class="leading-8">
+            <span class="font-semibold">1.Create an Element - </span>Use
+            document.createElement("tagName") to create a new element. <br />
+            <span class="font-semibold">2.Add an Element -</span> Use
+            appendChild(), prepend(), insertBefore(), or innerHTML to insert it
+            into the DOM. <br />
+            <span class="font-semibold">3.Remove an Element -</span> Use
+            remove() to delete an element or removeChild() to remove a child
+            from its parent. <br />
           </p>
         </div>
       </div>

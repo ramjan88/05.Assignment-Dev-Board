@@ -93,14 +93,14 @@
           </div>
 
           <!-- Board card section -->
-          <div class="grid grid-cols-3 gap-4">
+          <div class="grid grid-cols-3 gap-5">
             <!-- card 1 -->
             <div class="card bg-[#F4F7FF] shadow-sm">
               <div class="card-body space-y-2">
                 <h3 class="font-semibold bg-white p-2 w-[33%] rounded-lg">
                   ShopEase
                 </h3>
-                <h2 class="card-title">Fix Mobile Button Issue</h2>
+                <h2 id="mobile-title" class="card-title">Fix Mobile Button Issue</h2>
                 <p class="bg-white py-5 px-2 rounded-lg">
                   Debug using Chrome DevTools, check for overlappin
                 </p>
@@ -109,7 +109,9 @@
                     <p>Deadline</p>
                     <h3 class="font-bold">21 March 2025</h3>
                   </div>
-                  <button class="btn btn-primary">Completed</button>
+                  <button id="btn-mobile" class="btn btn-primary">
+                    Completed
+                  </button>
                 </div>
               </div>
             </div>
@@ -119,7 +121,7 @@
                 <h3 class="font-semibold bg-white p-2 w-[35%] rounded-lg">
                   CloudSync
                 </h3>
-                <h2 class="card-title">Add Dark Mode</h2>
+                <h2 id="dark-title" class="card-title">Add Dark Mode</h2>
                 <p class="bg-white py-5 px-2 rounded-lg">
                   Store the user's preference in localStorage, update CSS
                   <!-- variables dynamically, and apply a smooth transition effect. -->
@@ -129,7 +131,7 @@
                     <p>Deadline</p>
                     <h3 class="font-bold">21 March 2025</h3>
                   </div>
-                  <button class="btn btn-primary">Completed</button>
+                  <button id="btn-dark" class="btn btn-primary">Completed</button>
                 </div>
               </div>
             </div>
@@ -139,7 +141,7 @@
                 <h3 class="font-semibold bg-white p-2 w-[32%] rounded-lg">
                   SwiftPay
                 </h3>
-                <h2 class="card-title">Fix Mobile Button Issue</h2>
+                <h2 id="optimize-title" class="card-title">Optimize  Home page</h2>
                 <p class="bg-white py-5 px-2 rounded-lg">
                   Debug using Chrome DevTools, check for overlapping elements,
                   <!-- and ensure onClick works properly and ensure onClick works
@@ -150,7 +152,7 @@
                     <p>Deadline</p>
                     <h3 class="font-bold">21 March 2025</h3>
                   </div>
-                  <button class="btn btn-primary">Completed</button>
+                  <button id="btn-optimize" class="btn btn-primary">Completed</button>
                 </div>
               </div>
             </div>
@@ -160,7 +162,7 @@
                 <h3 class="font-semibold bg-white p-2 w-[20%] rounded-lg">
                   Meta
                 </h3>
-                <h2 class="card-title">Add new emoji 🤲</h2>
+                <h2 id="emoji-title" class="card-title">Add new emoji 🤲</h2>
                 <p class="bg-white py-5 px-2 rounded-lg">
                   Debug using Chrome DevTools, check for overlapping elements,
                   <!-- and ensure onClick works properly and ensure onClick works
@@ -171,7 +173,7 @@
                     <p>Deadline</p>
                     <h3 class="font-bold">21 March 2025</h3>
                   </div>
-                  <button class="btn btn-primary">Completed</button>
+                  <button id="btn-emoji" class="btn btn-primary">Completed</button>
                 </div>
               </div>
             </div>
@@ -181,7 +183,7 @@
                 <h3 class="font-semibold bg-white p-2 w-[38%] rounded-lg">
                   Google LLC
                 </h3>
-                <h2 class="card-title">Integrate OpenAI API</h2>
+                <h2 id="api-title" class="card-title">Integrate OpenAI API</h2>
                 <p class="bg-white py-5 px-2 rounded-lg">
                   Debug using Chrome DevTools, check for overlapping elements,
                   <!-- and ensure onClick works properly -->
@@ -191,7 +193,7 @@
                     <p>Deadline</p>
                     <h3 class="font-bold">21 March 2025</h3>
                   </div>
-                  <button class="btn btn-primary">Completed</button>
+                  <button id="btn-api" class="btn btn-primary">Completed</button>
                 </div>
               </div>
             </div>
@@ -201,7 +203,7 @@
                 <h3 class="font-semibold bg-white p-2 w-[33%] rounded-lg">
                   Glassdoar
                 </h3>
-                <h2 class="card-title">Improve Job searching</h2>
+                <h2 id="job-title" class="card-title">Improve Job searching</h2>
                 <p class="bg-white py-5 px-2 rounded-lg">
                   Debug using Chrome DevTools, check for overlapping elements,
                   <!-- and ensure onClick works properly and ensure onClick works
@@ -212,7 +214,7 @@
                     <p>Deadline</p>
                     <h3 class="font-bold">21 March 2025</h3>
                   </div>
-                  <button class="btn btn-primary">Completed</button>
+                  <button id="btn-job" class="btn btn-primary">Completed</button>
                 </div>
               </div>
             </div>
@@ -226,8 +228,11 @@
               <img src="images/activity.png" alt="" />
               <h2 class="text-xl">Activity Log</h2>
             </div>
-            <button class="btn btn-primary mb-6">Clear History</button>
+            <button id="btn-clear-history" class="btn btn-primary mb-6">
+              Clear History
+            </button>
           </div>
+          <div id="history-container" class=""></div>
         </div>
       </div>
     </main>

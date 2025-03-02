@@ -33,10 +33,9 @@ function currentDate() {
     year: "numeric",
   };
   let formattedDate = updateDate.toLocaleDateString("en-US", options);
-  formattedDate = formattedDate.replace("," , '');
+  formattedDate = formattedDate.replace(/,/g, "");
   let parts = formattedDate.split(" ");
-  let finalDate = `${parts[0]}, <span class="font-bold"> <br> ${parts[1]} ${parts[2]} ${parts[3]}</span>`;
+  let finalDate = `${parts[0]},<span class="font-bold"> <br> ${parts[1]} ${parts[2]} ${parts[3]}</span>`;
   document.getElementById("curernt-date").innerHTML = finalDate;
 }
-currentDate()
-
+currentDate();
